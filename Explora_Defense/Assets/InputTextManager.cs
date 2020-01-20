@@ -7,13 +7,14 @@ using UnityEngine.UI;
 public class InputTextManager : MonoBehaviour
 {
     public InputField newCode;
+    public int code;
+
     public void Text_Changed( Image newPage)
     {
         float temp = float.Parse(newCode.text);
-        if(temp == 1234)
+        if(temp == code)
         {
-            GetComponent<UIHandler>().navStart(newPage);
-            //navStart();
+            GetComponent<UIHandler>().changePage(newPage);
             Debug.Log("Hello World"); 
         } else {
             Debug.Log("NUL World"); 

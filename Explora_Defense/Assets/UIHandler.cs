@@ -28,24 +28,41 @@ public class UIHandler : MonoBehaviour
     }
     
     */
-    
-     public void navStart(Image nov)
+   /* 
+     public void navStart(Image page)
     {
-        if(!nov.gameObject.activeSelf)
+        if(!page.gameObject.activeSelf)
         {
-            nov.gameObject.SetActive(true);    
-            nov.fillAmount = 1.0f;
+            page.gameObject.SetActive(true);    
+            page.fillAmount = 1.0f;
             Debug.Log("active"); 
             //StartCoroutine(startSlide(1.0f));
         }
-        else if(nov.gameObject.activeSelf)
+        else if(page.gameObject.activeSelf)
         {
-            nov.gameObject.SetActive(false);    
-            nov.fillAmount = 0.0f;
+            page.gameObject.SetActive(false);    
+            page.fillAmount = 0.0f;
             Debug.Log("desactive");
             //StartCoroutine(startSlide(-1.0f));
         }
-        
+    }*/
+    
+    public void changePage(Image page)
+    {
+        if(!page.gameObject.activeSelf)
+        {
+            page.gameObject.SetActive(true);    
+            page.fillAmount = 1.0f;
+            Debug.Log("active"); 
+            //StartCoroutine(startSlide(1.0f));
+        }
+        else if(page.gameObject.activeSelf)
+        {
+            page.gameObject.SetActive(false);    
+            page.fillAmount = 0.0f;
+            Debug.Log("desactive");
+            //StartCoroutine(startSlide(-1.0f));
+        }
     }
     /*
     IEnumerator startSlide(float i)
