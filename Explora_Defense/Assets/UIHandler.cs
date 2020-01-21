@@ -53,14 +53,12 @@ public class UIHandler : MonoBehaviour
         {
             page.gameObject.SetActive(true);    
             page.fillAmount = 1.0f;
-            Debug.Log("active"); 
             //StartCoroutine(startSlide(1.0f));
         }
         else if(page.gameObject.activeSelf)
         {
             page.gameObject.SetActive(false);    
             page.fillAmount = 0.0f;
-            Debug.Log("desactive");
             //StartCoroutine(startSlide(-1.0f));
         }
     }
