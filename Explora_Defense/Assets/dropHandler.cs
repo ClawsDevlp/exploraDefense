@@ -14,13 +14,23 @@ public class dropHandler : MonoBehaviour, IDropHandler
             return null;
         }
     }*/
+    
+    private RectTransform rectTransform;
+
     public void OnDrop(PointerEventData eventData)
     {
-        RectTransform invPanel = transform as RectTransform;
-
-        if(!RectTransformUtility.RectangleContainsScreenPoint(invPanel, Input.mousePosition))
+        if(eventData.pointerDrag != null)
         {
-            Debug.Log("drop item");
+            rectTransform = eventData.pointerDrag.GetComponent<RectTransform>();
+            
+            if(GetComponent<RectTransform>() != null){
+                rectTransform.position = GetComponent<RectTransform>().position;
+                rectTransform.SetParent(GetComponent<RectTransform>());
+                Debug.Log("Pointage");
+            } else {
+                rectTransform.position = Vector3.zero;
+                Debug.Log("NAAAAAAH");
+            }
         }
     }
 }
