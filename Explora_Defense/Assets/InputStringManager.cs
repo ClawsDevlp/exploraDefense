@@ -15,8 +15,7 @@ public class InputStringManager : MonoBehaviour
         {
             GetComponent<UIHandler>().changePage(newPage);
         } else {
-            // Faire message erreur utilisateur
-            Debug.Log("NUL World"); 
+            GetComponent<UIHandler>().showError();
         }
     }
    
