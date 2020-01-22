@@ -10,7 +10,7 @@ public class validateCheckHandler : MonoBehaviour
         {
             GetComponent<UIHandler>().changePage(newPage);
         } else {
-            Debug.Log("Vous n'avez pas trouvé les différences");
+            GetComponent<UIHandler>().showError();
         }
     }
 }

@@ -11,9 +11,15 @@ public class UIHandler : MonoBehaviour
         {
             page.gameObject.SetActive(true);
         }
-        else if(page.gameObject.activeSelf)
+        else
         {
             page.gameObject.SetActive(false);
         }
-    }    
+    }
+
+    public Text textError;
+
+    public void showError(){
+        textError.gameObject.SetActive(true);
+    }
 }

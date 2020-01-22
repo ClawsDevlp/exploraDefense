@@ -9,7 +9,6 @@ public class validateDropHandler : MonoBehaviour
     public dropHandler elmtCoeur;
     public dropHandler elmtMain;
     public dropHandler elmtPied;
-    public Text textError;
 
     public void validateDrop(Image newPage){
         elmtCoeur.checkGoodDrop();
@@ -21,7 +20,7 @@ public class validateDropHandler : MonoBehaviour
         {
             GetComponent<UIHandler>().changePage(newPage);
         } else {
-            textError.gameObject.SetActive(true);
+            GetComponent<UIHandler>().showError();
         }
     }
 }
