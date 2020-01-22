@@ -8,9 +8,14 @@ public class checkHandler : MonoBehaviour
 {
     public Sprite notCheck;
     public Sprite check;
-    public Button diff1;
     public int countCheck;
     public int goodCheck;
+    
+    public Button diff1;
+    public Button diff2;
+    public Button diff3;
+    public Button diff4;
+    public Button diff5;
 
     public void isCheck(Button btn)
     {
@@ -18,14 +23,14 @@ public class checkHandler : MonoBehaviour
         {
             btn.image.overrideSprite = check;
             countCheck++;
-            if(btn == diff1)
+            if(btn == diff1 || btn == diff2 || btn == diff3 || btn == diff4 || btn == diff5)
             {
                 goodCheck++;
             }
         } else {
             btn.image.overrideSprite = notCheck;
             countCheck--;
-            if(btn == diff1)
+            if(btn == diff1 || btn == diff2 || btn == diff3 || btn == diff4 || btn == diff5)
             {
                 goodCheck--;
             }
