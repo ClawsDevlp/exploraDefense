@@ -15,10 +15,16 @@ public class TimerManager : MonoBehaviour
     private float stopTime;
     private float timerTime;
     private bool isRunning = false;
+
+    void Start()
+    {
+        TimerReset();
+        TimerStop();
+    }
  
     public void TimerStart()
     {
-        TimerReset();
+    
         if(!isRunning)
         {
             isRunning = true;
@@ -35,14 +41,14 @@ public class TimerManager : MonoBehaviour
         if(isRunning)
         {
             isRunning = false;
-            stopTime = Time.time;
+            stopTime = Time.deltaTime;
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        timerTime = stopTime + ( startTime - Time.time );
+        timerTime = stopTime + ( startTime - Time.deltaTime );
         int seconds = (int)(timerTime %60);
         int minutes = (int)(timerTime / 60) % 60;
         int hours = (int)(timerTime/3600) %24;
@@ -52,6 +58,7 @@ public class TimerManager : MonoBehaviour
             timerHours.text = hours.ToString();
             timerMinutes.text = minutes.ToString();
             timerSeconds.text = seconds.ToString();
+            startTime -= Time.deltaTime;
         }
     }
 }

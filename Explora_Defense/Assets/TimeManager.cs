@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class TimeManager : MonoBehaviour
 {
-    public float startingTime = 0.0f;
+    public float startingTime = 2.0f;
     private Text theText;
     void Start()
     {
