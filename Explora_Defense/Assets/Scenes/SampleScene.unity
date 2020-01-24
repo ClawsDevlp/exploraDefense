@@ -1549,7 +1549,7 @@ RectTransform:
   - {fileID: 463009197}
   - {fileID: 1127035052}
   m_Father: {fileID: 1803441890}
-  m_RootOrder: 43
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2340,12 +2340,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\"Dans l'ombre de cette Statue qui culmine \xE0 12 m\xE8tres de haut et
-    p\xE8se pr\xE8s de 18 tonnes, nous vous invitons \xE0 ouvrir la premi\xE8re poche
-    de votre sac. Les objets qu'il contient pourrait bien vous aider pour la suite
-    de votre voiyage. Vous obtenez notamment une BATTERIE que vous pourrez recharger
-    \xE0 l'aide d'\xE9nergie radioactive.\nRentrez le code se trouvant sur la batterie
-    pour vous diriger vers la prochaine destination. \""
+  m_Text: "Dans l'ombre de cette Statue qui culmine \xE0 12 m\xE8tres de haut et p\xE8se
+    pr\xE8s de 18 tonnes, nous vous invitons \xE0 ouvrir la premi\xE8re poche de votre
+    sac. Les objets qu'il contient pourrait bien vous aider pour la suite de votre
+    voiyage. Vous obtenez notamment une BATTERIE que vous pourrez recharger \xE0 l'aide
+    d'\xE9nergie radioactive.\nRentrez le code se trouvant sur la batterie pour vous
+    diriger vers la prochaine destination. "
 --- !u!222 &109378651
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2540,8 +2540,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 15, y: 105}
-  m_SizeDelta: {x: -361.3, y: -412.1}
+  m_AnchoredPosition: {x: 15, y: -0.000030517578}
+  m_SizeDelta: {x: -133.3, y: -412.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &125162905
 MonoBehaviour:
@@ -2574,7 +2574,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BC1
+  m_Text: "Une fois dans la cour du quartier Michelet, rep\xE9rez sur votre gauche
+    un casque digne des Stormtroopers. Nous vous laisserons alors vous diriger vers
+    l'oeuvre en forme de spirale un peu plus loin. Le nombre de lignes qui la compose
+    devrait vous indiquer la prochaine op\xE9ration \xE0 effectuer avec le nombre
+    pr\xE9c\xE9demment rep\xE9r\xE9."
 --- !u!222 &125162906
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2823,8 +2827,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 12, y: 94.7}
-  m_SizeDelta: {x: -361.3, y: -559}
+  m_AnchoredPosition: {x: -0.000030517578, y: 102}
+  m_SizeDelta: {x: -209.1, y: -559}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &127210728
 MonoBehaviour:
@@ -2857,7 +2861,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Enigme : \n\ncombien il y a de personnages ?"
+  m_Text: "Vous pouvez \xE0 pr\xE9sent descendre l'esplanade direction une autre version
+    des SIGNAUX LUMINEUX que vous aviez rencontr\xE9 au d\xE9but de votre p\xE9riple.
+    Sur votre chemin vous devriez rencontrer un affaissment du sol dans lequel vous
+    pourrez compter le nombre d'homme qui anime la cit\xE9."
 --- !u!222 &127210729
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2900,7 +2907,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 85.9}
+  m_AnchoredPosition: {x: 0, y: 173}
   m_SizeDelta: {x: -167.9, y: -633.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &127896011
@@ -2936,7 +2943,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Apr\xE8s toute cette aventure, vous m\xE9ritez bien une petite pause...
     Et si vous preniez le temps d'immortaliser votre voyage et votre \xE9quipage en
-    prenant une petite photo souvenir sur ce banc 3 fois trop grand qui n'attend que
+    prenant une petite photo souvenir sur ce banc 3 FOIS trop grand qui n'attend que
     vous ? \r\nVous pouvez reporter les coordonn\xE9es de ce lieu sur la carte."
 --- !u!222 &127896012
 CanvasRenderer:
@@ -3057,8 +3064,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 12, y: 125}
-  m_SizeDelta: {x: -361.3, y: -498.4}
+  m_AnchoredPosition: {x: 0.0005493164, y: 19.654999}
+  m_SizeDelta: {x: -249, y: -498.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &133548516
 MonoBehaviour:
@@ -3091,8 +3098,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Continuez tout droit direction une des autres multiples chemin\xE9es ext\xE9rieures
-    qui pars\xE8ment La D\xE9fense.\r\n\nLe saviez-tu ? Info sur les chemin\xE9es"
+  m_Text: "\nRep\xE9rez le nombre de tuyau qui compose le Moretti et additionnez-le
+    \xE0 votre r\xE9sultat pr\xE9c\xE9dent. Le r\xE9sultat vous permettra de d\xE9bloquer
+    la direction \xE0 suivre."
 --- !u!222 &133548517
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9491,7 +9499,7 @@ MonoBehaviour:
         m_MethodName: Text_Changed
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1497482887}
+          m_ObjectArgument: {fileID: 1447015841}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Image, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -13683,17 +13691,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666968365}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0.00000017881389}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1066357757}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180.00002}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000012875, y: 108}
-  m_SizeDelta: {x: 619, y: 286.1}
+  m_AnchoredPosition: {x: 0.000056256133, y: 30.8}
+  m_SizeDelta: {x: 800, y: 131.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &666968367
 MonoBehaviour:
@@ -13713,7 +13721,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 275dc2008fba4364dbf1bac71a50fe2e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0cb97a3ac23b4c3419ca65037d42c607, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15528,83 +15536,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 740805081}
-  m_CullTransparentMesh: 0
---- !u!1 &745326078
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 745326079}
-  - component: {fileID: 745326081}
-  - component: {fileID: 745326080}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &745326079
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745326078}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1750267568}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &745326080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745326078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Suivant
---- !u!222 &745326081
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745326078}
   m_CullTransparentMesh: 0
 --- !u!1 &746680352
 GameObject:
@@ -18646,8 +18577,9 @@ MonoBehaviour:
     pour le voyage temporel et il se pourrait que vous souffirez d'une d\xE9shydratation
     s\xE9v\xE8re lors du voyage de retour. Reconstituez votre stock d'eau dans votre
     gourde avant de pouvoir repartir.\r\nPour cela, utilisez la boussole pour vous
-    diriger. Prenez direction X jusqu'\xE0 rencontrer X elt puis X toute jusqu'\xE0
-    trouver un oeuvre tr\xE8s color\xE9e sur votre gauche !"
+    diriger. Prenez direction NORD-EST jusqu'\xE0 apercevoir un espace tr\xE8s vert,
+    tournez alors au NORD puis direction SUD(OUEST) toute jusqu'\xE0 trouver un oeuvre
+    tr\xE8s color\xE9e sur votre gauche !"
 --- !u!222 &880561421
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19097,8 +19029,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 100}
-  m_SizeDelta: {x: -167.9, y: -661.6}
+  m_AnchoredPosition: {x: 15, y: 0}
+  m_SizeDelta: {x: -300.3, y: -555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &901276279
 MonoBehaviour:
@@ -19131,7 +19063,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Les oiseaux m\xE9caniques\nLes nymph\xE9as\n..."
+  m_Text: "Laissez Phil\xE9as Fogg et son BALLON faire le tour de la terre, sur votre
+    gauche avancez-vous jusqu'\xE0 des structures m\xE9caniques inspir\xE9es des fameux
+    nymph\xE9as de Manet."
 --- !u!222 &901276280
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20403,8 +20337,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 15, y: 105}
-  m_SizeDelta: {x: -361.3, y: -412.1}
+  m_AnchoredPosition: {x: 15, y: 35}
+  m_SizeDelta: {x: -126, y: -412.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &970017119
 MonoBehaviour:
@@ -20437,7 +20371,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LES TROIS ARBRES
+  m_Text: "Nous vous laissons en apprendre plus sur cette sculpture qui vient habiller
+    une autres des chemin\xE9es d'\xE9vacuation de la D\xE9fense. Sa surface notamment
+    est \xE0 retenir *wink wink*\r\n\nApr\xE8s cela, prenez les escalier sur votre
+    droite, vous avez l'option escalator si besoin."
 --- !u!222 &970017120
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21325,9 +21262,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Avancez ensuite droit devant vous puis tournez \xE0 droite cap sur le nouveau
-    monde quevous d\xE9passerez pour aller encore plus loin que Christophe Colomb.
-    Vous \xEAtes des explorateurs temporels apr\xE8s tout ! "
+  m_Text: "En face de vous, se dresse une colonne de mosa\xEFque , rendez-vous au
+    pied de cet arbre d\xE9compos\xE9 en plusieurs millions de petits carr\xE9s. "
 --- !u!222 &1001797081
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21629,83 +21565,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1029849351}
-  m_CullTransparentMesh: 0
---- !u!1 &1032678172
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1032678173}
-  - component: {fileID: 1032678175}
-  - component: {fileID: 1032678174}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1032678173
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1032678172}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1497482886}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 100}
-  m_SizeDelta: {x: -167.9, y: -661.6}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1032678174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1032678172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 1
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "direction hommes de la cit\xE9\n..."
---- !u!222 &1032678175
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1032678172}
   m_CullTransparentMesh: 0
 --- !u!1 &1037737950
 GameObject:
@@ -22096,7 +21955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newCode: {fileID: 1796560027}
-  code: 305
+  code: 3542
 --- !u!114 &1070820953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22716,7 +22575,7 @@ RectTransform:
   m_Children:
   - {fileID: 771087007}
   m_Father: {fileID: 1803441890}
-  m_RootOrder: 46
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -25318,7 +25177,7 @@ RectTransform:
   - {fileID: 858224112}
   - {fileID: 1135355701}
   m_Father: {fileID: 1803441890}
-  m_RootOrder: 45
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -30075,7 +29934,7 @@ RectTransform:
   - {fileID: 1444309088}
   - {fileID: 195760398}
   m_Father: {fileID: 1803441890}
-  m_RootOrder: 40
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -30779,7 +30638,7 @@ RectTransform:
   - {fileID: 1187822747}
   - {fileID: 390964065}
   m_Father: {fileID: 1803441890}
-  m_RootOrder: 41
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -31709,81 +31568,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497476356}
-  m_CullTransparentMesh: 0
---- !u!1 &1497482885
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1497482886}
-  - component: {fileID: 1497482888}
-  - component: {fileID: 1497482887}
-  m_Layer: 5
-  m_Name: Page34
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1497482886
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497482885}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1032678173}
-  - {fileID: 1750267568}
-  m_Father: {fileID: 1803441890}
-  m_RootOrder: 39
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00024414062, y: -49.274963}
-  m_SizeDelta: {x: 0.00036621, y: -98.55}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1497482887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497482885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.8612952, g: 0.8584906, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1497482888
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497482885}
   m_CullTransparentMesh: 0
 --- !u!1 &1502077402
 GameObject:
@@ -36648,135 +36432,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1749730183}
   m_CullTransparentMesh: 0
---- !u!1 &1750267567
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1750267568}
-  - component: {fileID: 1750267571}
-  - component: {fileID: 1750267570}
-  - component: {fileID: 1750267569}
-  m_Layer: 5
-  m_Name: Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1750267568
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750267567}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 745326079}
-  m_Father: {fileID: 1497482886}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 15, y: 147.5}
-  m_SizeDelta: {x: -622, y: 55.6}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1750267569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750267567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1750267570}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 519420030}
-        m_MethodName: changePage
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1447015841}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Image, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1750267570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750267567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1750267571
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750267567}
-  m_CullTransparentMesh: 0
 --- !u!1 &1751660052
 GameObject:
   m_ObjectHideFlags: 0
@@ -37414,7 +37069,7 @@ RectTransform:
   - {fileID: 964344797}
   - {fileID: 95696226}
   m_Father: {fileID: 1803441890}
-  m_RootOrder: 44
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -38562,7 +38217,6 @@ RectTransform:
   - {fileID: 596579743}
   - {fileID: 2090550454}
   - {fileID: 2056591057}
-  - {fileID: 1497482886}
   - {fileID: 1447015840}
   - {fileID: 1472873873}
   - {fileID: 2080868350}
@@ -39336,8 +38990,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 15, y: 105}
-  m_SizeDelta: {x: -361.3, y: -412.1}
+  m_AnchoredPosition: {x: 0.0005493164, y: -0.000030517578}
+  m_SizeDelta: {x: -195.65, y: -412.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1835196221
 MonoBehaviour:
@@ -39370,10 +39024,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'DOUBLE LIGNES INDETERMINEES
-
-
-    Somme des nombres'
+  m_Text: "Depuis votre localisation actuelle, vous devriez apercevoir une autre chemin\xE9e
+    d\xE9cor\xE9e de mani\xE8re tr\xE8s color\xE9e. Dirigez-vous l\xE0-bas. Une fois
+    en haut des escaliers, sur votre gauche vous pourrez apercevoir une repr\xE9sentation
+    de la Belle Oph\xE9lie de Shakespeare."
 --- !u!222 &1835196222
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -39416,8 +39070,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 85.9}
-  m_SizeDelta: {x: -167.9, y: -633.4}
+  m_AnchoredPosition: {x: 0, y: 136.6}
+  m_SizeDelta: {x: -167.9, y: -532}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1835278730
 MonoBehaviour:
@@ -43381,7 +43035,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000005722, y: -118}
+  m_AnchoredPosition: {x: 0.000033031, y: -158}
   m_SizeDelta: {x: 124.2, y: 115.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2079246792
@@ -43507,7 +43161,7 @@ RectTransform:
   - {fileID: 1060605236}
   - {fileID: 2079246791}
   m_Father: {fileID: 1803441890}
-  m_RootOrder: 42
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
