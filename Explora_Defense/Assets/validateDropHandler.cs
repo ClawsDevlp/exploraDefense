@@ -5,18 +5,22 @@ using UnityEngine.UI;
 
 public class validateDropHandler : MonoBehaviour
 {
-    public dropHandler elmtTete;
-    public dropHandler elmtCoeur;
-    public dropHandler elmtMain;
-    public dropHandler elmtPied;
+    public dropHandler elmtRightWing;
+    public dropHandler elmtLeftWing;
+    public dropHandler elmtLeftThigh;
+    public dropHandler elmtPubis;
+    public dropHandler elmtLeftFoot;
+    public dropHandler elmtRightBelly;
 
     public void validateDrop(Image newPage){
-        elmtCoeur.checkGoodDrop();
-        elmtTete.checkGoodDrop();
-        elmtMain.checkGoodDrop();
-        elmtPied.checkGoodDrop();
+        elmtRightWing.checkGoodDrop();
+        elmtLeftWing.checkGoodDrop();
+        elmtLeftThigh.checkGoodDrop();
+        elmtPubis.checkGoodDrop();
+        elmtLeftFoot.checkGoodDrop();
+        elmtRightBelly.checkGoodDrop();
 
-        if(elmtTete.goodDrop == true && elmtCoeur.goodDrop == true && elmtPied.goodDrop == true && elmtMain.goodDrop == true)
+        if(elmtRightWing.goodDrop == true && elmtLeftWing.goodDrop == true && elmtLeftThigh.goodDrop == true && elmtPubis.goodDrop == true && elmtLeftFoot.goodDrop == true && elmtRightBelly.goodDrop == true)
         {
             GetComponent<UIHandler>().changePage(newPage);
         } else {
