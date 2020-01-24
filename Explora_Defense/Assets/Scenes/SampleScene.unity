@@ -2540,7 +2540,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 15, y: -0.000030517578}
+  m_AnchoredPosition: {x: 15, y: 0}
   m_SizeDelta: {x: -133.3, y: -412.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &125162905
@@ -3064,7 +3064,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0005493164, y: 19.654999}
+  m_AnchoredPosition: {x: 0.0005493164, y: 19.65503}
   m_SizeDelta: {x: -249, y: -498.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &133548516
@@ -5181,9 +5181,9 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Ne faites pas comme ICARE, ne vous br\xFBlez pas les ailes lors de cette
-    seconde \xE9tape. Vous pouvez vous s\xE9parer pour gagner du temps. Remarquez
-    ces \xE9tranges statues jumelles autour de vous, rapprochez vous et observez les
-    DETAILS, vous aurez besoin de tous vos yeux pour ne pas perdre la TETE. "
+    seconde \xE9tape. \n Remarquez ces \xE9tranges statues jumelles autour de vous,
+    rapprochez vous et observez les DETAILS, vous aurez besoin de tous vos yeux pour
+    ne pas perdre la TETE. \n\nVous pouvez vous s\xE9parer pour gagner du temps."
 --- !u!222 &247523592
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5808,7 +5808,7 @@ RectTransform:
   - {fileID: 432361181}
   - {fileID: 652053506}
   m_Father: {fileID: 1502077403}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -23547,7 +23547,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 51.450012, y: -129.33981}
+  m_AnchoredPosition: {x: 51.44998, y: -152.63376}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1137014007
@@ -24608,7 +24608,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 51.450012, y: -504.3398}
+  m_AnchoredPosition: {x: 51.44998, y: -527.6338}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1188738997
@@ -24914,7 +24914,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 51.450012, y: -204.33981}
+  m_AnchoredPosition: {x: 51.44998, y: -227.63376}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1196854924
@@ -28473,7 +28473,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 51.450012, y: -279.3398}
+  m_AnchoredPosition: {x: 51.44998, y: -302.63376}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1386661934
@@ -31484,8 +31484,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Bonjour \xE9quipage 58392.30, ici le point de contr\xF4le.\nIl semblerait
-    que voyage dans le temps ce soit mal pass\xE9. D\u2019apr\xE8s nos calculs votre
-    vaisseau a atterri en 2020. \n\nAnalysons ce qui a d\xE9failli lors du trajet."
+    que votre voyage dans le temps ce soit mal pass\xE9. D\u2019apr\xE8s nos calculs
+    votre vaisseau a atterri en 2020. \n\nAnalysons ce qui a d\xE9failli lors du trajet."
 --- !u!222 &1494500181
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31605,6 +31605,7 @@ RectTransform:
   - {fileID: 1091839496}
   - {fileID: 513004397}
   - {fileID: 18382009}
+  - {fileID: 1961435228}
   - {fileID: 2029315523}
   - {fileID: 264811065}
   m_Father: {fileID: 688457266}
@@ -31628,7 +31629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.07058824}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -32257,7 +32258,7 @@ MonoBehaviour:
   m_Text: "- votre moteur \xE0 fission a un probl\xE8me dysfonctionnel et n\xE9cessite
     un code pour \xEAtre reboot\xE9\n\n- votre boussole inter-dimensionnelle a disparu
     , surement perdue lors de l'atterrissage mouvement\xE9\n\n- votre batterie doit
-    \xEAtre recharg\xE9e gr\xE2ce \xE0 de l'\xE9nergie radioactive\""
+    \xEAtre recharg\xE9e gr\xE2ce \xE0 de l'\xE9nergie radioactive"
 --- !u!222 &1533148158
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37536,7 +37537,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 51.450012, y: -429.3398}
+  m_AnchoredPosition: {x: 51.44998, y: -452.63376}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1789500474
@@ -37772,8 +37773,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 442513469}
-        m_MethodName: Text_Changed
+      - m_Target: {fileID: 442513468}
+        m_MethodName: changePage
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 805213028}
@@ -38990,7 +38991,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0005493164, y: -0.000030517578}
+  m_AnchoredPosition: {x: 0.0005493164, y: 0}
   m_SizeDelta: {x: -195.65, y: -412.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1835196221
@@ -39615,8 +39616,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 442513469}
-        m_MethodName: Text_Changed
+      - m_Target: {fileID: 442513468}
+        m_MethodName: changePage
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1515587708}
@@ -40321,6 +40322,119 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1945669556}
+  m_CullTransparentMesh: 0
+--- !u!1 &1961435227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1961435228}
+  - component: {fileID: 1961435232}
+  - component: {fileID: 1961435231}
+  - component: {fileID: 1961435230}
+  - component: {fileID: 1961435229}
+  m_Layer: 5
+  m_Name: pubisBack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1961435228
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961435227}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1502077403}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 181, y: 28}
+  m_SizeDelta: {x: 70, y: 70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1961435229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961435227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0118b705c2cde3a46af6c1d036746405, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightElement: {fileID: 1744925828}
+  goodDrop: 0
+--- !u!114 &1961435230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961435227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 70, y: 70}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
+--- !u!114 &1961435231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961435227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1961435232
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961435227}
   m_CullTransparentMesh: 0
 --- !u!1 &1977878567
 GameObject:
@@ -41648,7 +41762,7 @@ RectTransform:
   - {fileID: 2032913812}
   - {fileID: 721446227}
   m_Father: {fileID: 1502077403}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -42479,7 +42593,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 51.450012, y: -354.3398}
+  m_AnchoredPosition: {x: 51.44998, y: -377.63376}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2063993401
