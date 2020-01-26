@@ -8,22 +8,35 @@ public class WebCam : MonoBehaviour
     int currentCamIndex = 0;
     WebCamTexture tex;
     public RawImage display;
+
+    private void StopWebCam()
+    {
+         display.texture = null;
+            tex.Stop();
+            tex = null;
+    }
     public void SwapCam_Clicked()
     {
         if(WebCamTexture.devices.Length > 0)
         {
             currentCamIndex += 1;
             currentCamIndex %= WebCamTexture.devices.Length;
+
+            if(tex != null)
+            {
+                StopWebCam();
+                StartStopCam_Clicked();
+            }
         }
     }
+
+
 
     public void StartStopCam_Clicked()
     {
         if(tex != null)
         {
-            display.texture = null;
-            tex.Stop();
-            tex = null;
+           StopWebCam();
         }
         else
         {
