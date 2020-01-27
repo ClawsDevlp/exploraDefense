@@ -7,6 +7,7 @@ public class InputTextManager : MonoBehaviour
 {
     public InputField newCode;
     public int code;
+    public int error;
 
     public void Text_Changed(Image newPage)
     {

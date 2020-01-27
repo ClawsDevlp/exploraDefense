@@ -10,9 +10,14 @@ public class TimerManager : MonoBehaviour
     public Text timerMinutes;
     public Text timerSeconds;
 
-   
+    public int penality = 0;
+
+    private int seconds;
+    private int minutes;
+    private int hours;
     public float startTime;
     private float stopTime;
+    private float penalityTime;
     private float timerTime;
     private bool isRunning = false;
 
@@ -45,14 +50,30 @@ public class TimerManager : MonoBehaviour
         }
     }
 
+    public void TimerPenality()
+    {
+        //Debug.Log(GetComponent<UIHandler>().error);
+
+        penality = 1;
+       
+    }
+
     // Update is called once per frame
     void Update()
     {
-        timerTime = stopTime + ( startTime - Time.deltaTime );
-        int seconds = (int)(timerTime %60);
-        int minutes = (int)(timerTime / 60) % 60;
-        int hours = (int)(timerTime/3600) %24;
+        timerTime = stopTime + ( startTime - Time.deltaTime - penalityTime );
+        seconds = (int)(timerTime %60);
+        minutes = (int)(timerTime / 60) % 60;
+        hours = (int)(timerTime/3600) %24;
 
+        if(penality != 0)
+        {
+            penalityTime =  10 * 3600;
+            //minutes -= 10;
+            Debug.Log(minutes);
+            penalityTime =0;
+        }
+      
         if(isRunning)
         {
             timerHours.text = hours.ToString();
