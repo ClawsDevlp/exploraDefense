@@ -28433,7 +28433,7 @@ GameObject:
   - component: {fileID: 1304370661}
   - component: {fileID: 1304370660}
   m_Layer: 5
-  m_Name: Page22
+  m_Name: Page22_QRCode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37687,7 +37687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1713945979
 RectTransform:
   m_ObjectHideFlags: 0
@@ -43452,7 +43452,7 @@ GameObject:
   - component: {fileID: 1997292645}
   - component: {fileID: 1997292644}
   m_Layer: 5
-  m_Name: Page23_QRCode
+  m_Name: Page23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43700,6 +43700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thisPage: {fileID: 0}
   newPage: {fileID: 1997292644}
+  baseRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &2007026283
 MonoBehaviour:
   m_ObjectHideFlags: 0
