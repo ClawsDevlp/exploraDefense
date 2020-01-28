@@ -19,11 +19,9 @@ public class UIHandler : MonoBehaviour
 
     public Text textError;
 
-  
-     
+    
     public void showError(){
         textError.gameObject.SetActive(true);
-        
-        
     }
+    
 }
