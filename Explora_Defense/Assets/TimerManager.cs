@@ -12,7 +12,7 @@ public class TimerManager : MonoBehaviour
 
     public int penality = 0;
     public int type = 0;
-
+    public int timer = 0;
     private int finishPenality = 0;
 
     private int seconds;
@@ -43,7 +43,8 @@ public class TimerManager : MonoBehaviour
             }
             else{
                 //startTime *=60;
-                startTime = 10;
+                
+                startTime = timer;
                 penality = 1;
             }
         }
