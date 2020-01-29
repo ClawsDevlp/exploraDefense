@@ -12,40 +12,53 @@ public class QRCodeHandler : MonoBehaviour
     private Rect screenRect;
     public Image thisPage;
     public Image newPage;
-    private bool useGui = true;
     IBarcodeReader barcodeReader;
+    private Vector3 baseRotation;
+    private float speed = 0.1f; 
+    private Result result;
 
     void Start() {
         screenRect = new Rect(0, 0, Screen.width, Screen.height);
         camTexture = new WebCamTexture();
         camTexture.requestedHeight = Screen.height;
         camTexture.requestedWidth = Screen.width;
+        baseRotation = transform.eulerAngles;
+        
         if (camTexture != null) {
             camTexture.Play();
         }
+
+        StartCoroutine(ReadQR());
     }
 
-    void OnGUI () {
-        if(useGui){
-            // drawing the camera on screen
-            GUI.DrawTexture(screenRect, camTexture, ScaleMode.ScaleToFit);
-            // do the reading — you might want to attempt to read less often than you draw on the screen for performance sake
+    void Update() {
+        transform.eulerAngles = new Vector3(
+            baseRotation.x,
+            baseRotation.y,
+            baseRotation.z - camTexture.videoRotationAngle);
+        GetComponent<RawImage>().texture = camTexture;
+    }
+
+    IEnumerator ReadQR() {
+        for(;;) {
             try {
                 barcodeReader = new BarcodeReader ();
                 // decode the current frame
-                var result = barcodeReader.Decode(camTexture.GetPixels32(), camTexture.width , camTexture.height);
-                if (result != null) {
-                    if(result.Text == "https://equipeludique.fr/nos-jeux/"){
-                        stopAll();
-                    }
+                result = barcodeReader.Decode(camTexture.GetPixels32(), camTexture.width , camTexture.height);
+            } catch(Exception ex) { Debug.LogWarning (ex.Message); yield break; }
+            if (result != null) {
+                if(result.Text == "https://equipeludique.fr/nos-jeux/"){
+                    stopAll();
+                    yield return new WaitForSeconds(speed);
+                    break;
                 }
-            } catch(Exception ex) { Debug.LogWarning (ex.Message); }
+            }
+            yield return new WaitForSeconds(speed);
         }
     }
 
     void stopAll() {
         camTexture.Stop();
-        useGui = false;
         barcodeReader = null;
         camTexture = null;
         GetComponent<UIHandler>().changePage(newPage);

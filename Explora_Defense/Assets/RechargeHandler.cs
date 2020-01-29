@@ -35,52 +35,52 @@ public class RechargeHandler : MonoBehaviour
             case 0302:
                 GetComponent<UIHandler>().changePage(tourEgeePage);
                 break;
-            case 0404:
+            case 1504:
                 GetComponent<UIHandler>().changePage(icarePage);
                 break;
-            case 0508:
+            case 0806:
                 GetComponent<UIHandler>().changePage(archePage);
                 break;
-            case 0616:
+            case 0404:
                 GetComponent<UIHandler>().changePage(signauxLumPage);
                 break;
-            case 0732:
+            case 1608:
                 GetComponent<UIHandler>().changePage(pontJaponaisPage);
                 break;
-            case 0864:
+            case 0912:
                 GetComponent<UIHandler>().changePage(araigneePage);
                 break;
             /*case 0902:
                 GetComponent<UIHandler>().changePage(fontaineArcCielPage);
                 break;*/
-            case 1004:
+            case 0508:
                 GetComponent<UIHandler>().changePage(statueDefensePage);
                 break;
-            case 1108:
+            case 1716:
                 GetComponent<UIHandler>().changePage(chemineeVegePage);
                 break;
-            case 1216:
+            case 1024:
                 GetComponent<UIHandler>().changePage(MorsePage);
                 break;
-            case 1332:
+            case 0616:
                 GetComponent<UIHandler>().changePage(fontaineCorollePage);
                 break;
-            case 1464:
+            case 1832:
                 GetComponent<UIHandler>().changePage(enigmeEauPage);
                 break;
-            case 1502:
+            case 1148:
                 GetComponent<UIHandler>().changePage(terrePage);
                 break;
-            case 1604:
+            case 0732:
                 GetComponent<UIHandler>().changePage(troisArbresPage);
                 break;
-            case 1708:
+            case 1964:
                 GetComponent<UIHandler>().changePage(morettiPage);
                 break;
-            case 1816:
+            case 1296:
                 GetComponent<UIHandler>().changePage(hommesCitePage);
                 break;
-            case 1932:
+            case 0864:
                 GetComponent<UIHandler>().changePage(bancPublicPage);
                 break;
         }
