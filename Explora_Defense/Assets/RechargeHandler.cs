@@ -83,6 +83,9 @@ public class RechargeHandler : MonoBehaviour
             case 0864:
                 GetComponent<UIHandler>().changePage(bancPublicPage);
                 break;
+            default:
+                GetComponent<UIHandler>().showError();
+                break;
         }
     }
 }
