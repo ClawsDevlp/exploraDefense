@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class TexteAnimation : MonoBehaviour
 {
-    public float speed = 0.1f;
+    public float speed = 0.9f;
     public Text fullText;
     public string sentence;
     private Text currentText;
