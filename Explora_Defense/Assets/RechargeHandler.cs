@@ -21,7 +21,7 @@ public class RechargeHandler : MonoBehaviour
     public Image enigmeEauPage;
     public Image terrePage;
     public Image troisArbresPage;
-    public Image morettiPage;
+    //public Image morettiPage;
     public Image hommesCitePage;
     public Image bancPublicPage;
     
@@ -74,9 +74,9 @@ public class RechargeHandler : MonoBehaviour
             case 0732:
                 GetComponent<UIHandler>().changePage(troisArbresPage);
                 break;
-            case 1964:
+            /*case 1964:
                 GetComponent<UIHandler>().changePage(morettiPage);
-                break;
+                break;*/
             case 1296:
                 GetComponent<UIHandler>().changePage(hommesCitePage);
                 break;

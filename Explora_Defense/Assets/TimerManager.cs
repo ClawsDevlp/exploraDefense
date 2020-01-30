@@ -69,11 +69,11 @@ public class TimerManager : MonoBehaviour
         {
             finishPenality =1;
             timerHours.gameObject.SetActive(true);
-           timerMinutes.gameObject.SetActive(true);
-           timerSeconds.gameObject.SetActive(true);
+            timerMinutes.gameObject.SetActive(true);
+            timerSeconds.gameObject.SetActive(true);
             penalitybutton.gameObject.SetActive(false);
         }
-        Debug.Log(penality);
+        //Debug.Log(penality);
     }
      
     public void TimerReset()
@@ -108,7 +108,7 @@ public class TimerManager : MonoBehaviour
         }*/
         if( seconds == 0 && minutes == 0 && finishPenality == 1)
         {
-            Debug.Log( "penality terminé");
+            //Debug.Log( "penality terminé");
             penality = 0;
             penalityTime();
             //GetComponent<InputTextManager>().error = 0;
