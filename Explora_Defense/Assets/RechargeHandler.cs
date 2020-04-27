@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class RechargeHandler : MonoBehaviour
 {
     public InputField codePage;
+    public GameObject avancementFill;
 
     public Image tourEgeePage;
     public Image icarePage;
@@ -13,7 +14,6 @@ public class RechargeHandler : MonoBehaviour
     public Image signauxLumPage;
     public Image pontJaponaisPage;
     public Image araigneePage;
-   // public Image fontaineArcCielPage;
     public Image statueDefensePage;
     public Image chemineeVegePage;
     public Image MorsePage;
@@ -21,7 +21,6 @@ public class RechargeHandler : MonoBehaviour
     public Image enigmeEauPage;
     public Image terrePage;
     public Image troisArbresPage;
-    //public Image morettiPage;
     public Image hommesCitePage;
     public Image bancPublicPage;
     
@@ -29,11 +28,14 @@ public class RechargeHandler : MonoBehaviour
     public void checkCode()
     {
         float temp = float.Parse(codePage.text);
+        float lengthX = 0.00338f;
+        avancementFill = GameObject.Find("AvancementFill");
 
         switch (temp)
         {
             case 0302:
                 GetComponent<UIHandler>().changePage(tourEgeePage);
+                avancementFill.transform.localScale += new Vector3(lengthX*7, 0, 0);
                 break;
             case 1504:
                 GetComponent<UIHandler>().changePage(icarePage);
@@ -50,9 +52,6 @@ public class RechargeHandler : MonoBehaviour
             case 0912:
                 GetComponent<UIHandler>().changePage(araigneePage);
                 break;
-            /*case 0902:
-                GetComponent<UIHandler>().changePage(fontaineArcCielPage);
-                break;*/
             case 0508:
                 GetComponent<UIHandler>().changePage(statueDefensePage);
                 break;
@@ -74,14 +73,13 @@ public class RechargeHandler : MonoBehaviour
             case 0732:
                 GetComponent<UIHandler>().changePage(troisArbresPage);
                 break;
-            /*case 1964:
-                GetComponent<UIHandler>().changePage(morettiPage);
-                break;*/
             case 1296:
                 GetComponent<UIHandler>().changePage(hommesCitePage);
+                avancementFill.transform.localScale += new Vector3(lengthX*33, 0, 0);
                 break;
             case 0864:
                 GetComponent<UIHandler>().changePage(bancPublicPage);
+                avancementFill.transform.localScale += new Vector3(lengthX*34, 0, 0);
                 break;
             default:
                 GetComponent<UIHandler>().showError();
