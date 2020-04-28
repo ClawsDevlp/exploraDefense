@@ -25,9 +25,37 @@ public class UIHandler : MonoBehaviour
 
     public Text textError;
 
-    
     public void showError(){
         textError.gameObject.SetActive(true);
+    }
+
+    // Functions only used to begin the game
+    public Image barAvancement;
+
+    public void beginGame(Image page)
+    {
+        page.gameObject.SetActive(true);
+        if(barAvancement)
+        {
+            showBarAvancement(barAvancement);
+        }
+    }
+
+    public void showBarAvancement(Image bar)
+    {
+        bar.gameObject.SetActive(true);
+    }
+
+    public void changeToRechargePage(Image page)
+    {
+        if(!page.gameObject.activeSelf)
+        {
+            page.gameObject.SetActive(true);
+        }
+        else
+        {
+            page.gameObject.SetActive(false);
+        }
     }
     
 }

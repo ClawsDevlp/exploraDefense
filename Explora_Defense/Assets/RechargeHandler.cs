@@ -7,6 +7,7 @@ public class RechargeHandler : MonoBehaviour
 {
     public InputField codePage;
     public GameObject avancementFill;
+    public Image barAvancement;
 
     public Image tourEgeePage;
     public Image icarePage;
@@ -34,51 +35,80 @@ public class RechargeHandler : MonoBehaviour
         switch (temp)
         {
             case 0302:
-                GetComponent<UIHandler>().changePage(tourEgeePage);
-                avancementFill.transform.localScale += new Vector3(lengthX*7, 0, 0);
+                GetComponent<UIHandler>().beginGame(tourEgeePage);
+                GetComponent<UIHandler>().showBarAvancement(barAvancement);
+                avancementFill.transform.localScale += new Vector3(lengthX*5, 0, 0);
                 break;
             case 1504:
-                GetComponent<UIHandler>().changePage(icarePage);
+                GetComponent<UIHandler>().beginGame(icarePage);
+                GetComponent<UIHandler>().showBarAvancement(barAvancement);
+                avancementFill.transform.localScale += new Vector3(lengthX*6, 0, 0);
                 break;
             case 0806:
-                GetComponent<UIHandler>().changePage(archePage);
+                GetComponent<UIHandler>().beginGame(archePage);
+                GetComponent<UIHandler>().showBarAvancement(barAvancement);
+                avancementFill.transform.localScale += new Vector3(lengthX*9, 0, 0);
                 break;
+/*  Pblm return
             case 0404:
-                GetComponent<UIHandler>().changePage(signauxLumPage);
+                GetComponent<UIHandler>().beginGame(signauxLumPage);
+                GetComponent<UIHandler>().showBarAvancement(barAvancement);
+                avancementFill.transform.localScale += new Vector3(lengthX*11, 0, 0);
                 break;
+*/
             case 1608:
-                GetComponent<UIHandler>().changePage(pontJaponaisPage);
+                GetComponent<UIHandler>().beginGame(pontJaponaisPage);
+                GetComponent<UIHandler>().showBarAvancement(barAvancement);
+                avancementFill.transform.localScale += new Vector3(lengthX*13, 0, 0);
                 break;
             case 0912:
-                GetComponent<UIHandler>().changePage(araigneePage);
+                GetComponent<UIHandler>().beginGame(araigneePage);
+                GetComponent<UIHandler>().showBarAvancement(barAvancement);
+                avancementFill.transform.localScale += new Vector3(lengthX*15, 0, 0);
                 break;
             case 0508:
-                GetComponent<UIHandler>().changePage(statueDefensePage);
+                GetComponent<UIHandler>().beginGame(statueDefensePage);
+                GetComponent<UIHandler>().showBarAvancement(barAvancement);
+                avancementFill.transform.localScale += new Vector3(lengthX*19, 0, 0);
                 break;
             case 1716:
-                GetComponent<UIHandler>().changePage(chemineeVegePage);
+                GetComponent<UIHandler>().beginGame(chemineeVegePage);
+                GetComponent<UIHandler>().showBarAvancement(barAvancement);
+                avancementFill.transform.localScale += new Vector3(lengthX*20, 0, 0);
                 break;
             case 1024:
-                GetComponent<UIHandler>().changePage(MorsePage);
+                GetComponent<UIHandler>().beginGame(MorsePage);
+                GetComponent<UIHandler>().showBarAvancement(barAvancement);
+                avancementFill.transform.localScale += new Vector3(lengthX*22, 0, 0);
                 break;
             case 0616:
-                GetComponent<UIHandler>().changePage(fontaineCorollePage);
+                GetComponent<UIHandler>().beginGame(fontaineCorollePage);
+                GetComponent<UIHandler>().showBarAvancement(barAvancement);
+                avancementFill.transform.localScale += new Vector3(lengthX*23, 0, 0);
                 break;
             case 1832:
-                GetComponent<UIHandler>().changePage(enigmeEauPage);
+                GetComponent<UIHandler>().beginGame(enigmeEauPage);
+                GetComponent<UIHandler>().showBarAvancement(barAvancement);
+                avancementFill.transform.localScale += new Vector3(lengthX*25, 0, 0);
                 break;
             case 1148:
-                GetComponent<UIHandler>().changePage(terrePage);
+                GetComponent<UIHandler>().beginGame(terrePage);
+                GetComponent<UIHandler>().showBarAvancement(barAvancement);
+                avancementFill.transform.localScale += new Vector3(lengthX*26, 0, 0);
                 break;
             case 0732:
-                GetComponent<UIHandler>().changePage(troisArbresPage);
+                GetComponent<UIHandler>().beginGame(troisArbresPage);
+                GetComponent<UIHandler>().showBarAvancement(barAvancement);
+                avancementFill.transform.localScale += new Vector3(lengthX*28, 0, 0);
                 break;
             case 1296:
-                GetComponent<UIHandler>().changePage(hommesCitePage);
+                GetComponent<UIHandler>().beginGame(hommesCitePage);
+                GetComponent<UIHandler>().showBarAvancement(barAvancement);
                 avancementFill.transform.localScale += new Vector3(lengthX*33, 0, 0);
                 break;
             case 0864:
-                GetComponent<UIHandler>().changePage(bancPublicPage);
+                GetComponent<UIHandler>().beginGame(bancPublicPage);
+                GetComponent<UIHandler>().showBarAvancement(barAvancement);
                 avancementFill.transform.localScale += new Vector3(lengthX*34, 0, 0);
                 break;
             default:

@@ -2714,6 +2714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 1045470403}
+  barAvancement: {fileID: 0}
 --- !u!224 &125177918
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9835,6 +9836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 333188859}
+  barAvancement: {fileID: 0}
 --- !u!114 &375810181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11411,7 +11413,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 519420030}
-        m_MethodName: changePage
+        m_MethodName: beginGame
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1146758184}
@@ -11914,6 +11916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 1561104879}
+  barAvancement: {fileID: 0}
 --- !u!114 &442513469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14823,6 +14826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 0}
+  barAvancement: {fileID: 1705094224}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -15413,6 +15417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 1047812192}
+  barAvancement: {fileID: 0}
 --- !u!224 &533186388
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20544,6 +20549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 694112871}
+  barAvancement: {fileID: 0}
 --- !u!1 &682800979
 GameObject:
   m_ObjectHideFlags: 0
@@ -21233,7 +21239,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 519420030}
-        m_MethodName: changePage
+        m_MethodName: changeToRechargePage
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 10078662}
@@ -22795,7 +22801,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 519420030}
-        m_MethodName: changePage
+        m_MethodName: changeToRechargePage
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 10078662}
@@ -25415,6 +25421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   codePage: {fileID: 2124603283}
   avancementFill: {fileID: 0}
+  barAvancement: {fileID: 1705094224}
   tourEgeePage: {fileID: 925137615}
   icarePage: {fileID: 240107991}
   archePage: {fileID: 875546289}
@@ -25443,6 +25450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 1758409322}
+  barAvancement: {fileID: 0}
 --- !u!224 &843254410
 RectTransform:
   m_ObjectHideFlags: 0
@@ -27300,6 +27308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 858224110}
+  barAvancement: {fileID: 0}
 --- !u!224 &907762490
 RectTransform:
   m_ObjectHideFlags: 0
@@ -30782,6 +30791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 656886776}
+  barAvancement: {fileID: 0}
 --- !u!224 &1070820954
 RectTransform:
   m_ObjectHideFlags: 0
@@ -33782,6 +33792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 95696227}
+  barAvancement: {fileID: 0}
 --- !u!224 &1194030553
 RectTransform:
   m_ObjectHideFlags: 0
@@ -34983,6 +34994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 1418804198}
+  barAvancement: {fileID: 0}
 --- !u!114 &1243722829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35063,6 +35075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 899806103}
+  barAvancement: {fileID: 0}
 --- !u!224 &1245816775
 RectTransform:
   m_ObjectHideFlags: 0
@@ -35281,6 +35294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 1444309086}
+  barAvancement: {fileID: 0}
 --- !u!114 &1248458387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38300,6 +38314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 1240083055}
+  barAvancement: {fileID: 0}
 --- !u!114 &1364872778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39586,7 +39601,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.0006104, y: -2.7669983}
+  m_AnchoredPosition: {x: 1.0006104, y: -2.7669678}
   m_SizeDelta: {x: -33.7, y: -29.874}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1401880952
@@ -42717,7 +42732,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.0004883, y: -2.7669983}
+  m_AnchoredPosition: {x: 1.0004883, y: -2.7669678}
   m_SizeDelta: {x: -33.70038, y: -29.873901}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489265957
@@ -43255,6 +43270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 1374599920}
+  barAvancement: {fileID: 0}
 --- !u!1 &1514107572
 GameObject:
   m_ObjectHideFlags: 0
@@ -46493,6 +46509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 0}
+  barAvancement: {fileID: 0}
 --- !u!1 &1652525772
 GameObject:
   m_ObjectHideFlags: 0
@@ -46545,6 +46562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 277570303}
+  barAvancement: {fileID: 0}
 --- !u!224 &1652525775
 RectTransform:
   m_ObjectHideFlags: 0
@@ -48202,7 +48220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1705094223
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53510,6 +53528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 277570303}
+  barAvancement: {fileID: 0}
 --- !u!114 &1868230233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56941,6 +56960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textError: {fileID: 0}
+  barAvancement: {fileID: 0}
 --- !u!114 &2007026284
 MonoBehaviour:
   m_ObjectHideFlags: 0
